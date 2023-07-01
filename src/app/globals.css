@@ -8,11 +8,43 @@
   --font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --primary: #b3b3b3;
+  --secondary: #121212;
 }
 
 body,
 html {
   font-family: var(--font-family-sans-serif);
-  color: #b3b3b3;
-  background-color: #121212;
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
+.big-button {
+  color: var(--primary);
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    outline: none;
+    box-shadow: 4px 4px 0 0 var(--primary);
+    transform: translate(-5px, -5px);
+  }
+
+  &:after {
+    display: none !important;
+  }
+}
+
+.resume-link {
+  padding: 12px 30px;
+  width: max-content;
 }

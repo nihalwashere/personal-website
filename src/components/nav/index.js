@@ -12,6 +12,8 @@ const Navs = () => (
         <span className="text-primary mr-1">0{nav?.id}.</span> {nav?.title}
       </a>
     ))}
+
+    <a className="big-button resume-link">Resume</a>
   </div>
 );
 

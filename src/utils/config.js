@@ -9,12 +9,12 @@ export const NavList = [
   {
     id: "2",
     title: "Experience",
-    link: "/#jobs",
+    link: "/#experience",
   },
   {
     id: "3",
     title: "Work",
-    link: "/#projects",
+    link: "/#work",
   },
   {
     id: "4",
