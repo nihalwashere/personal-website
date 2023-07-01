@@ -10,14 +10,15 @@ const Hero = () => (
 
       <div className="w-1/2 my-4">
         I&apos;m a software engineer specializing in building exceptional
-        digital experiences. Currently, I lead engineering at{" "}
+        digital experiences. Currently, I&apos;m focused on building accessible,
+        human-centered products at{" "}
         <a
           className="text-primary font-normal"
           rel="noopener noreferer"
-          href="https://www.cherrysubscription.com"
+          href="https://thelonewolf.tech"
           target="_blank"
         >
-          Cherry
+          LoneWolf
         </a>
         .
       </div>

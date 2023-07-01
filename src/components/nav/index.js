@@ -7,6 +7,7 @@ const Navs = () => (
         key={nav?.id}
         className="text-sm mx-4 hover:text-primary cursor-pointer"
         rel="noopener noreferer"
+        href={nav?.link}
       >
         <span className="text-primary mr-1">0{nav?.id}.</span> {nav?.title}
       </a>

@@ -20,7 +20,7 @@ const Social = () => (
       </a>
     ))}
 
-    <div className="w-[1px] h-20 bg-primary m-0" />
+    <div className="w-[1px] h-20 bg-secondary m-0" />
   </div>
 );
 

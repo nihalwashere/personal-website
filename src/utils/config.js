@@ -40,3 +40,13 @@ export const SocialList = [
     link: `mailto:${PersonalEmail}`,
   },
 ];
+
+export const SkillsList = [
+  "JavaScript",
+  "TypeScript",
+  "React.js",
+  "Node.js",
+  "GraphQL",
+  "MongoDB",
+  "AWS",
+];
