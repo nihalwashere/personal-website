@@ -63,7 +63,7 @@ const Experience = () => {
                 onClick={() => handleSelectJob(job)}
                 className={`w-40 h-10 border-l-[1px] border-secondary flex items-center cursor-pointer hover:text-primary ${
                   selectedJob?.company === job?.company
-                    ? "border-l-2 border-primary text-primary bg-menu"
+                    ? "border-l-2 border-l-primary text-primary bg-menu"
                     : ""
                 }`}
               >
