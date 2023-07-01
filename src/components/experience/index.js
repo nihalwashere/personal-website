@@ -1,63 +1,30 @@
 "use client";
 
 import React from "react";
-
-const jobs = [
-  {
-    title: "Lead Engineer",
-    company: "LoneWolf",
-    location: "San Jose, CA",
-    date: "Aug 2022 - Present",
-    link: "https://thelonewolf.tech/",
-    accomplishments: [""],
-  },
-  {
-    title: "Senior Software Engineer - Frontend",
-    company: "Volopay",
-    location: "Bangalore, IN",
-    date: "Sept 2021 - July 2022",
-    link: "https://www.volopay.com/",
-    accomplishments: [""],
-  },
-  {
-    title: "Software Engineer",
-    company: "Emproto",
-    location: "Bangalore, IN",
-    date: "Jan 2020 - March 2021",
-    link: "https://www.emproto.com/",
-    accomplishments: [""],
-  },
-  {
-    title: "JavaScript Developer",
-    company: "Properly",
-    location: "Pune, IN",
-    date: "Sept 2018 - Jan 2020",
-    link: "https://getproperly.com/",
-    accomplishments: [""],
-  },
-];
+import { JobsList } from "../../utils/config";
 
 const Experience = () => {
-  const [selectedJob, setSelectedJob] = React.useState(jobs[0]);
+  const [selectedJob, setSelectedJob] = React.useState(JobsList[0]);
 
   const handleSelectJob = (job) => {
     setSelectedJob(job);
   };
 
   return (
-    <div id="experience" className="flex justify-center p-24">
+    <div id="experience" className="flex justify-end p-24">
       <div className="w-3/4">
         <div className="flex items-center text-2xl">
+          <div className="h-[1px] w-2/5 bg-secondary mr-4" />
+
           <span className="text-primary">02.</span>
           <span className="text-secondary font-semibold ml-2">
             Where I&apos;have Worked
           </span>
-          <div className="h-[1px] w-2/5 bg-secondary ml-4" />
         </div>
 
         <div className="flex my-8">
           <div>
-            {jobs.map((job) => (
+            {JobsList.map((job) => (
               <div
                 key={job?.company}
                 onClick={() => handleSelectJob(job)}
