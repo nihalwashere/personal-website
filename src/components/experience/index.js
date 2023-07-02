@@ -26,10 +26,10 @@ const Experience = () => {
             <div
               key={job?.company}
               onClick={() => handleSelectJob(job)}
-              className={`w-40 h-10 border-b-[1px] md:border-b-0 md:border-l-[1px] border-secondary flex items-center cursor-pointer hover:text-primary ${
+              className={`w-40 h-10 border-b-[1px] md:border-b-0 md:border-l-[1px] flex items-center cursor-pointer hover:text-primary ${
                 selectedJob?.company === job?.company
-                  ? "border-b-2 md:border-b-0 md:border-l-[1px] border-primary text-primary bg-menu"
-                  : ""
+                  ? "border-b-[1px] md:border-b-0 md:border-l-[1px] border-primary text-primary bg-menu"
+                  : "border-secondary"
               }`}
             >
               <div className="pl-4 text-sm">{job?.company}</div>
@@ -37,7 +37,7 @@ const Experience = () => {
           ))}
         </div>
 
-        <div className="mt-8 pl-4 min-h-[300px] md:pl-8 md:mt-0">
+        <div className="mt-8 pl-4 w-full min-h-[300px] md:pl-8 md:mt-0">
           <div className="mt-2">
             <span>{selectedJob?.title}</span>{" "}
             <a
