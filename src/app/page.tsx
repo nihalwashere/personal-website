@@ -10,12 +10,18 @@ export default function Home() {
   return (
     <main className="w-full min-h-screen">
       <Nav />
-      <Hero />
+
+      <div className="flex flex-col justify-center items-center">
+        <div className="w-11/12 md:w-3/4">
+          <Hero />
+          <About />
+          <Experience />
+          <Work />
+          <Contact />
+        </div>
+      </div>
+
       <Social />
-      <About />
-      <Experience />
-      <Work />
-      <Contact />
     </main>
   );
 }
