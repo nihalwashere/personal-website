@@ -7,7 +7,8 @@ const Hero = () => (
     </div>
 
     <div className="text-3xl md:text-[60px] font-semibold my-2 md:my-4">
-      I like to make <span className="text-primary underline">things.</span>
+      I build things for the{" "}
+      <span className="text-primary underline">web.</span>
     </div>
 
     <div className="w-11/12 md:w-3/4 my-4">

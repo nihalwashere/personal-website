@@ -63,7 +63,11 @@ export const JobsList = [
     location: "San Jose, CA",
     date: "Aug 2022 - Present",
     link: "https://thelonewolf.tech/",
-    accomplishments: [""],
+    accomplishments: [
+      "Deliver high-quality, robust production code for a fintech startup",
+      "Work alongside the founding team to lead the research, development, and architecture of technical solutions to fulfill business requirements",
+      "Engineered an in house product that helps boost developer productivity, available in the Slack App Directory",
+    ],
   },
   {
     title: "Senior Software Engineer - Frontend",
@@ -71,7 +75,11 @@ export const JobsList = [
     location: "Bangalore, IN",
     date: "Sept 2021 - July 2022",
     link: "https://www.volopay.com/",
-    accomplishments: [""],
+    accomplishments: [
+      "Engineered and improved major features of Volopay's customer-facing web app using Vue.js and Sass",
+      "Developed a content management system as an internal tool using React.js, Redux and Redux-Sagas",
+      "Collaborate with designers and other engineers to transform creative concepts into production realities for stakeholders",
+    ],
   },
   {
     title: "Software Engineer",
@@ -79,7 +87,11 @@ export const JobsList = [
     location: "Bangalore, IN",
     date: "Jan 2020 - March 2021",
     link: "https://www.emproto.com/",
-    accomplishments: [""],
+    accomplishments: [
+      "Built and delivered technical solutions according to stakeholder business requirements",
+      "Built and maintained the frontend of an algorithmic trading platform written in React.js",
+      "Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
+    ],
   },
   {
     title: "JavaScript Developer",
@@ -87,7 +99,11 @@ export const JobsList = [
     location: "Pune, IN",
     date: "Sept 2018 - Jan 2020",
     link: "https://getproperly.com/",
-    accomplishments: [""],
+    accomplishments: [
+      "Engineered and improved major features of Properly's customer-facing web app using React.js and GraphQL",
+      "Held responsibility for developing and maintaining several microservices hosted on AWS",
+      "Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Properly's Job Request Engine",
+    ],
   },
 ];
 

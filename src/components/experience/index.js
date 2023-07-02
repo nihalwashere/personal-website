@@ -20,15 +20,15 @@ const Experience = () => {
         <div className="hidden md:block h-[1px] w-2/5 bg-secondary ml-4" />
       </div>
 
-      <div className="flex my-8">
-        <div>
+      <div className="md:flex my-8">
+        <div className="flex md:block overflow-x-auto">
           {JobsList.map((job) => (
             <div
               key={job?.company}
               onClick={() => handleSelectJob(job)}
-              className={`w-40 h-10 border-l-[1px] border-secondary flex items-center cursor-pointer hover:text-primary ${
+              className={`w-40 h-10 border-b-[1px] md:border-b-0 md:border-l-[1px] border-secondary flex items-center cursor-pointer hover:text-primary ${
                 selectedJob?.company === job?.company
-                  ? "border-l-2 border-l-primary text-primary bg-menu"
+                  ? "border-b-2 md:border-b-0 md:border-l-[1px] border-primary text-primary bg-menu"
                   : ""
               }`}
             >
@@ -37,7 +37,7 @@ const Experience = () => {
           ))}
         </div>
 
-        <div className="pl-8">
+        <div className="mt-8 pl-4 min-h-[300px] md:pl-8 md:mt-0">
           <div className="mt-2">
             <span>{selectedJob?.title}</span>{" "}
             <a
@@ -51,6 +51,14 @@ const Experience = () => {
           </div>
 
           <div className="text-sm mt-2">{selectedJob?.date}</div>
+
+          <ul className="text-sm mt-2">
+            {selectedJob?.accomplishments?.map((accomplishment, i) => (
+              <li key={i} className="mb-2">
+                {accomplishment}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>
