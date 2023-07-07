@@ -230,4 +230,51 @@ export const ProjectList = [
     external: "",
     tags: ["Node.js", "NestJS", "MongoDB"],
   },
+  {
+    title: "Chartidy - Chrome Plugin",
+    description:
+      "A chrome plugin that depicts the stock option values as a chart on Yahoo Finance.",
+    github: "https://github.com/nihalwashere/chartidy",
+    external: "",
+    tags: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    title: "Redux-Saga Playground",
+    description:
+      "Playing around with Redux-Saga, experimenting with actions, sagas and reducers.",
+    github: "https://github.com/nihalwashere/redux-saga-playground",
+    external: "",
+    tags: ["React", "Redux", "Redux-Sagas"],
+  },
+  {
+    title: "Redux-Thunk Playground",
+    description:
+      "Playing around with Redux-Thunk, experimenting with async actions.",
+    github: "https://github.com/nihalwashere/redux-thunk-playground/",
+    external: "",
+    tags: ["React", "Redux", "Redux-Thunk"],
+  },
+  {
+    title: "React Blog App",
+    description:
+      "A simple Blog app powered by Hasura's GraphQL Engine as its backend and React as frontend.",
+    github: "https://github.com/nihalwashere/react-blog-app/",
+    external: "",
+    tags: ["React.js", "Node.js", "GraphQL"],
+  },
+  {
+    title: "Todo Firebase App",
+    description: "A simple Todo app powered by Firebase.",
+    github: "https://github.com/nihalwashere/todo-firebase-app",
+    external: "",
+    tags: ["React.js", "Node.js", "Firebase"],
+  },
+  {
+    title: "React Course App",
+    description:
+      "A simple e-learning app powered by Hasura's GraphQL Engine at its backend and React as frontend.",
+    github: "https://github.com/nihalwashere/react-course-app",
+    external: "",
+    tags: ["React.js", "Node.js", "GraphQL"],
+  },
 ];
