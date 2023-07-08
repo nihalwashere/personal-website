@@ -109,6 +109,13 @@ export const JobsList = [
 
 export const ProjectList = [
   {
+    title: "Text-To-Pay",
+    description: "A dry run of what the buying experience with SMS looks like.",
+    github: "https://github.com/nihalwashere/text-to-pay",
+    external: "",
+    tags: ["Node.js", "Express.js", "MongoDB", "Twilio"],
+  },
+  {
     title: "Social Network for Developers",
     description:
       "A social network for developers who can connect with other developers around the globe, create profiles,share and like blog posts.",
