@@ -13,32 +13,56 @@ const Work = () => {
       </div>
 
       <div className="my-8">
-        {/* eslint-disable-next-line */}
-        <img
-          src="/images/codekickbot.png"
-          alt="CodeKickBot"
-          className="rounded-md"
-          width="100%"
-          height="100%"
-        />
-
-        <div className="flex flex-col mt-4">
-          <div className="text-sm my-2">Featured Project</div>
+        <div className="flex flex-col">
+          <div className="text-sm">Featured Project</div>
 
           <a
             href="https://codekickbot.com/"
             rel="noopener noreferer"
             target="_blank"
-            className="text-primary font-semibold text-2xl w-fit"
+            className="text-primary font-semibold text-2xl w-fit mt-2"
           >
             CodeKickBot
           </a>
 
-          <p className="my-4">
+          <p className="mt-2">
             A developer tool that helps you to collaborate on pull requests
             efficiently. It integrates with GitHub and Slack.
           </p>
         </div>
+
+        {/* eslint-disable-next-line */}
+        <img
+          src="/images/codekickbot.png"
+          alt="CodeKickBot"
+          className="rounded-md mt-4"
+        />
+      </div>
+
+      <hr className="" />
+
+      <div className="my-8">
+        <div className="flex flex-col">
+          <div className="text-sm">Featured Project</div>
+
+          <a
+            href="http://granularity-web.nihalwashere.xyz/"
+            rel="noopener noreferer"
+            target="_blank"
+            className="text-primary font-semibold text-2xl w-fit mt-2"
+          >
+            Granularity
+          </a>
+
+          <p className="mt-2">A no code form builder inspired by Typeform.</p>
+        </div>
+
+        {/* eslint-disable-next-line */}
+        <img
+          src="/images/granularity.png"
+          alt="Granularity"
+          className="rounded-md mt-4"
+        />
       </div>
 
       <div className="my-12 md:my-24">
