@@ -45,6 +45,8 @@ export const SkillsList = [
   "JavaScript",
   "TypeScript",
   "React.js",
+  "Vue.js",
+  "Nuxt.js",
   "Redux",
   "Redux-Sagas",
   "Tailwind CSS",
