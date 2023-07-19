@@ -16,14 +16,29 @@ const Work = () => {
         <div className="flex flex-col">
           <div className="text-sm">Featured Project</div>
 
-          <a
-            href="https://codekickbot.com/"
-            rel="noopener noreferer"
-            target="_blank"
-            className="text-primary font-semibold text-2xl w-fit mt-2"
-          >
-            CodeKickBot
-          </a>
+          <div className="flex justify-between items-center mt-2">
+            <a
+              href="https://codekickbot.com/"
+              rel="noopener noreferer"
+              target="_blank"
+              className="text-primary font-semibold text-2xl w-fit"
+            >
+              CodeKickBot
+            </a>
+
+            <a
+              href="https://codekickbot.com/"
+              rel="noopener noreferer"
+              target="_blank"
+            >
+              <Icon
+                name="External"
+                width={24}
+                height={24}
+                className="text-secondary hover:text-primary cursor-pointer"
+              />
+            </a>
+          </div>
 
           <p className="mt-2">
             A developer tool that helps you to collaborate on pull requests
@@ -45,14 +60,45 @@ const Work = () => {
         <div className="flex flex-col">
           <div className="text-sm">Featured Project</div>
 
-          <a
-            href="https://cheersly-web.nihalwashere.xyz/"
-            rel="noopener noreferer"
-            target="_blank"
-            className="text-primary font-semibold text-2xl w-fit mt-2"
-          >
-            Cheersly
-          </a>
+          <div className="flex justify-between items-center mt-2">
+            <a
+              href="https://cheersly-web.nihalwashere.xyz/"
+              rel="noopener noreferer"
+              target="_blank"
+              className="text-primary font-semibold text-2xl w-fit"
+            >
+              Cheersly
+            </a>
+
+            <div className="flex">
+              <a
+                href="https://github.com/nihalwashere/cheersly-app/"
+                className="mr-4"
+                rel="noopener noreferer"
+                target="_blank"
+              >
+                <Icon
+                  name="GitHub"
+                  width={24}
+                  height={24}
+                  className="text-secondary hover:text-primary cursor-pointer"
+                />
+              </a>
+
+              <a
+                href="https://cheersly-web.nihalwashere.xyz/"
+                rel="noopener noreferer"
+                target="_blank"
+              >
+                <Icon
+                  name="External"
+                  width={24}
+                  height={24}
+                  className="text-secondary hover:text-primary cursor-pointer"
+                />
+              </a>
+            </div>
+          </div>
 
           <p className="mt-2">
             An employee recognition and rewards management platform that helps
@@ -74,14 +120,45 @@ const Work = () => {
         <div className="flex flex-col">
           <div className="text-sm">Featured Project</div>
 
-          <a
-            href="http://granularity-web.nihalwashere.xyz/"
-            rel="noopener noreferer"
-            target="_blank"
-            className="text-primary font-semibold text-2xl w-fit mt-2"
-          >
-            Granularity
-          </a>
+          <div className="flex justify-between items-center mt-2">
+            <a
+              href="http://granularity-web.nihalwashere.xyz/"
+              rel="noopener noreferer"
+              target="_blank"
+              className="text-primary font-semibold text-2xl w-fit"
+            >
+              Granularity
+            </a>
+
+            <div className="flex">
+              <a
+                href="https://github.com/nihalwashere/granularity-app/"
+                className="mr-4"
+                rel="noopener noreferer"
+                target="_blank"
+              >
+                <Icon
+                  name="GitHub"
+                  width={24}
+                  height={24}
+                  className="text-secondary hover:text-primary cursor-pointer"
+                />
+              </a>
+
+              <a
+                href="http://granularity-web.nihalwashere.xyz/"
+                rel="noopener noreferer"
+                target="_blank"
+              >
+                <Icon
+                  name="External"
+                  width={24}
+                  height={24}
+                  className="text-secondary hover:text-primary cursor-pointer"
+                />
+              </a>
+            </div>
+          </div>
 
           <p className="mt-2">A no code form builder inspired by Typeform.</p>
         </div>
