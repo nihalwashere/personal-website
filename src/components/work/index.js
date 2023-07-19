@@ -101,8 +101,8 @@ const Work = () => {
           </div>
 
           <p className="mt-2">
-            An employee recognition and rewards management platform that helps
-            you to run social engagement at scale right within Slack.
+            A recognition and rewards management platform that helps you to run
+            employee engagement at scale right within Slack.
           </p>
         </div>
 
