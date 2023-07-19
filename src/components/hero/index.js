@@ -14,15 +14,15 @@ const Hero = () => (
     <div className="w-11/12 md:w-3/4 my-4">
       <p>
         I&apos;m a software engineer specializing in building exceptional
-        digital experiences. Currently, I&apos;m focused on building accessible,
-        human-centered products at{" "}
+        digital experiences. I like creating accessible, human-centered
+        products. Currently, I&apos;m focused on building{" "}
         <a
           className="text-primary font-normal"
           rel="noopener noreferer"
-          href="https://thelonewolf.tech"
+          href="https://codekickbot.com"
           target="_blank"
         >
-          LoneWolf
+          CodeKickBot
         </a>
         .
       </p>

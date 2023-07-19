@@ -1,9 +1,12 @@
 import "./globals.css";
 
+const title = "Nihal Kaul";
+const description =
+  "Nihal is a software engineer who specializes in building exceptional digital experiences.";
+
 export const metadata = {
-  title: "Nihal Kaul",
-  description:
-    "Nihal Kaul is a software engineer who specializes in building exceptional digital experiences.",
+  title,
+  description,
 };
 
 export default function RootLayout({
@@ -14,7 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" sizes="any" />
+        <link rel="icon" href="/icon.png" type="image/png" sizes="any" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content="/about.png" />
       </head>
 
       <body>{children}</body>

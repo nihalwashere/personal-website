@@ -61,14 +61,14 @@ export const SkillsList = [
 export const JobsList = [
   {
     title: "Lead Engineer",
-    company: "LoneWolf",
+    company: "CodeKickBot",
     location: "San Jose, CA",
-    date: "Aug 2022 - Present",
-    link: "https://thelonewolf.tech/",
+    date: "Aug 2022 - Present (Personal Project)",
+    link: "https://codekickbot.com/",
     accomplishments: [
-      "Deliver high-quality, robust production code for a fintech startup",
-      "Work alongside the founding team to lead the research, development, and architecture of technical solutions to fulfill business requirements",
-      "Engineered an in house product that helps boost developer productivity, available in the Slack App Directory",
+      "Engineered a product that helps boost developer productivity, available in the Slack App Directory",
+      "Identified business problems, devised solutions and marketed the product",
+      "Delivered high-quality, robust production code with no downtime",
     ],
   },
   {

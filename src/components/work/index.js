@@ -46,6 +46,35 @@ const Work = () => {
           <div className="text-sm">Featured Project</div>
 
           <a
+            href="https://cheersly-web.nihalwashere.xyz/"
+            rel="noopener noreferer"
+            target="_blank"
+            className="text-primary font-semibold text-2xl w-fit mt-2"
+          >
+            Cheersly
+          </a>
+
+          <p className="mt-2">
+            An employee recognition and rewards management platform that helps
+            you to run social engagement at scale right within Slack.
+          </p>
+        </div>
+
+        {/* eslint-disable-next-line */}
+        <img
+          src="/images/cheersly.png"
+          alt="Cheersly"
+          className="rounded-md mt-4"
+        />
+      </div>
+
+      <hr className="" />
+
+      <div className="my-8">
+        <div className="flex flex-col">
+          <div className="text-sm">Featured Project</div>
+
+          <a
             href="http://granularity-web.nihalwashere.xyz/"
             rel="noopener noreferer"
             target="_blank"
