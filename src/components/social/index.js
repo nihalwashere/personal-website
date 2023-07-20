@@ -8,7 +8,7 @@ const Social = () => (
         <a
           key={social?.id}
           href={social?.link}
-          className="mb-4"
+          className="mb-4 social-transform"
           rel="noopener noreferer"
           target="_blank"
         >
@@ -30,7 +30,7 @@ const Social = () => (
           <a
             key={social?.id}
             href={social?.link}
-            className="mb-4"
+            className="mb-4 social-transform"
             rel="noopener noreferer"
             target="_blank"
           >

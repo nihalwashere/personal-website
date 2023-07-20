@@ -56,3 +56,10 @@ body {
   padding: 12px 30px;
   width: max-content;
 }
+
+.social-transform {
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+  }
+}
