@@ -27,12 +27,12 @@ export const SocialList = [
   {
     id: "1",
     name: "GitHub",
-    link: "https://github.com/nihalwashere",
+    link: "https://github.com/nihalwashere/",
   },
   {
     id: "2",
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/nihalwashere",
+    link: "https://www.linkedin.com/in/nihalwashere/",
   },
   {
     id: "3",
@@ -116,6 +116,21 @@ export const ProjectList = [
     github: "https://github.com/nihalwashere/text-to-pay",
     external: "",
     tags: ["Node.js", "Express.js", "MongoDB", "Twilio"],
+  },
+  {
+    title: "Next.js Serverless Functions",
+    description:
+      "A random joke generator built using Next.js Serverless Functions.",
+    github: "https://github.com/nihalwashere/serverless-functions-nextjs",
+    external: "",
+    tags: ["Next.js", "Serverless"],
+  },
+  {
+    title: "Next.js Dark Mode",
+    description: "Implementing dark mode in Next.js using Tailwind CSS.",
+    github: "https://github.com/nihalwashere/dark-mode-nextjs",
+    external: "",
+    tags: ["Next.js", "Tailwind CSS"],
   },
   {
     title: "Social Network for Developers",

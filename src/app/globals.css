@@ -20,11 +20,12 @@
   --secondary: #121212;
 }
 
-body,
-html {
+html,
+body {
   font-family: var(--font-family-sans-serif);
   color: var(--primary);
   background-color: var(--secondary);
+  scroll-behavior: smooth;
 }
 
 .big-button {
