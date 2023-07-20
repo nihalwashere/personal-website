@@ -209,7 +209,7 @@ const Work = () => {
               <div className="text-sm mt-4">{project?.description}</div>
             </div>
 
-            <div className="grid grid-cols-4 gap-3 mt-4">
+            <div className="grid grid-cols-3 gap-3 mt-4">
               {project?.tags?.map((tag) => (
                 <span key={tag} className="text-xs ">
                   {tag}
