@@ -4,7 +4,7 @@ const Contact = () => (
   <div id="contact" className="flex justify-center items-center p-4 md:p-24">
     <div className="flex flex-col justify-center items-center">
       <div className="text-xl">
-        <span className="text-primary">04.</span>
+        <span className="text-primary">05.</span>
         <span className="text-secondary font-semibold ml-2">
           What&apos;s Next?
         </span>

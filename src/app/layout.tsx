@@ -2,9 +2,8 @@ import "./globals.css";
 
 const title = "Nihal Kaul";
 const description =
-  "Nihal is a software engineer who specializes in building exceptional digital experiences.";
+  "Nihal is a software engineer who specializes in building exceptional digital tools.";
 const url = "https://nihalwashere.xyz/";
-const image = "/about.png";
 
 export const metadata = {
   title,

@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Social from "../components/social";
 import About from "../components/about";
 import Experience from "../components/experience";
+import Startups from "../components/startups";
 import Work from "../components/work";
 import Contact from "../components/contact";
 
@@ -16,6 +17,7 @@ export default function Home() {
           <Hero />
           <About />
           <Experience />
+          <Startups />
           <Work />
           <Contact />
         </div>

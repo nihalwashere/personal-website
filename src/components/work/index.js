@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <div id="work" className="p-4 md:p-24 my-12 md:my-0">
       <div className="flex items-center text-xl">
-        <span className="text-primary">03.</span>
+        <span className="text-primary">04.</span>
         <span className="text-secondary font-semibold ml-2">
           Some Things I&apos;have Built
         </span>
@@ -54,7 +54,7 @@ const Work = () => {
         />
       </div>
 
-      <hr className="" />
+      <hr />
 
       <div className="my-8">
         <div className="flex flex-col">
@@ -114,7 +114,7 @@ const Work = () => {
         />
       </div>
 
-      <hr className="" />
+      <hr />
 
       <div className="my-8">
         <div className="flex flex-col">
@@ -178,7 +178,7 @@ const Work = () => {
 
         {/* <div className="flex justify-center mt-2">
             <a className="w-fit text-sm hover:underline" href="/archive">
-              <span className="">view archive</span>
+              <span>view archive</span>
             </a>
           </div> */}
       </div>

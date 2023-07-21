@@ -13,11 +13,16 @@ export const NavList = [
   },
   {
     id: "3",
+    title: "Startups",
+    link: "/#startups",
+  },
+  {
+    id: "4",
     title: "Work",
     link: "/#work",
   },
   {
-    id: "4",
+    id: "5",
     title: "Contact",
     link: "/#contact",
   },
@@ -56,6 +61,11 @@ export const SkillsList = [
   "Node.js",
   "MongoDB",
   "AWS",
+  "GCP",
+  "Azure",
+  "Docker",
+  "Terraform",
+  "Kubernetes",
 ];
 
 export const JobsList = [
@@ -63,7 +73,7 @@ export const JobsList = [
     title: "Lead Engineer",
     company: "CodeKickBot",
     location: "San Jose, CA",
-    date: "Aug 2022 - Present (Personal Project)",
+    date: "Forever (Personal Project)",
     link: "https://codekickbot.com/",
     accomplishments: [
       "Engineered a product that helps boost developer productivity, available in the Slack App Directory",
@@ -110,13 +120,6 @@ export const JobsList = [
 ];
 
 export const ProjectList = [
-  {
-    title: "Text-To-Pay",
-    description: "A dry run of what the buying experience with SMS looks like.",
-    github: "https://github.com/nihalwashere/text-to-pay",
-    external: "",
-    tags: ["Node.js", "Express.js", "MongoDB", "Twilio"],
-  },
   {
     title: "Next.js Serverless Functions",
     description:
