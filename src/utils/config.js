@@ -121,6 +121,27 @@ export const JobsList = [
 
 export const ProjectList = [
   {
+    title: "Kubernetes - Todo API",
+    description: "Kubernetes deployments for Node.js API.",
+    github: "https://github.com/nihalwashere/todo-k8s",
+    external: "",
+    tags: ["Node.js", "MongoDB", "K8S"],
+  },
+  {
+    title: "Dockerized Todo API",
+    description: "A dockerized Node.js API.",
+    github: "https://github.com/nihalwashere/todo-docker",
+    external: "",
+    tags: ["Node.js", "MongoDB", "Docker"],
+  },
+  {
+    title: "Text-To-Pay",
+    description: "A dry run of what the buying experience with SMS looks like.",
+    github: "https://github.com/nihalwashere/text-to-pay",
+    external: "",
+    tags: ["Node.js", "MongoDB", "Twilio"],
+  },
+  {
     title: "Next.js Serverless Functions",
     description:
       "A random joke generator built using Next.js Serverless Functions.",
