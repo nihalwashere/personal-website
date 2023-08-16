@@ -55,6 +55,7 @@ body {
 .resume-link {
   padding: 12px 30px;
   width: max-content;
+  display: inline-block;
 }
 
 .social-transform {

@@ -35,7 +35,13 @@ const Navs = () => {
             </a>
           ))}
 
-          {/* <a className="big-button resume-link">Resume</a> */}
+          <a
+            className="big-button resume-link ml-4"
+            href="/NIHAL_RESUME.pdf"
+            target="_blank"
+          >
+            Resume
+          </a>
         </div>
       </div>
 
@@ -74,7 +80,13 @@ const Navs = () => {
               </a>
             ))}
 
-            {/* <a className="big-button resume-link mt-4">Resume</a> */}
+            <a
+              className="big-button resume-link mt-4"
+              href="/NIHAL_RESUME.pdf"
+              target="_blank"
+            >
+              Resume
+            </a>
           </div>
         </div>
       )}
